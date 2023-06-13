@@ -1,0 +1,46 @@
+.container2 {
+  position: absolute;
+  top: 50%;
+  right: 35px;
+  transform: translateY(-50%);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.container2 .content {
+  display: none; /* Hide all content sections by default */
+  text-align: left;
+}
+
+.container2 .content.active {
+  display: block; /* Show active content section */
+  white-space: normal;
+}
+
+h2 {
+  color: white;
+  font-family: 'Droid Serif', serif;
+  font-size: 36px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 44px;
+  margin: 0 0 12px;
+  text-align: left;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h2 span {
+  display: block;
+}
+
+.line {
+  position: absolute;
+  left: 5;
+  width: 80%;
+  height: 2px;
+  background-color: white;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
